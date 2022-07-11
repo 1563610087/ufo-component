@@ -9,7 +9,7 @@ on:
       - main
 
 jobs:
-·publish-npm:
+  publish-npm:
     needs: build
     runs-on: ubuntu-latest
     steps:
